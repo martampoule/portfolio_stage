@@ -404,7 +404,7 @@ a.icon {
 }
 
 #header .header-thumb {
-  background: #ffffff;
+  background: #ffffff5b;
   border: 10px solid #f9f9f9;
   padding: 62px 20px 62px 20px;
 }
@@ -417,20 +417,24 @@ a.icon {
   padding: 32px 20px 32px 20px !important;
 }
 
-.header-one, .header-two,
+/* .header-one, .header-two,
 .header-three, .header-four,
 .header-five {
   height: 42vh !important;
   min-height: 420px;
   padding-top: 120px !important;
   margin: 60px;
-}
+} */
 
 .header-one {
   height: 60vh !important;
   min-height: 520px;
   padding-top: 150px !important;
 }
+.header-one {
+  background: url('../images/bg.jpg') no-repeat;
+}
+
 .header-two {
   background: url('../images/header-bg.jpg') no-repeat;
 }
@@ -899,8 +903,4 @@ footer {
 
 .carousel{
   margin-bottom: 3rem;
-}
-
-.img-responsive-video{
-  
 }
