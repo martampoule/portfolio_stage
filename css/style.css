@@ -430,9 +430,10 @@ a.icon {
   height: 60vh !important;
   min-height: 520px;
   padding-top: 150px !important;
+  background: #ffffff5b;
 }
 .header-one {
-  background: url('../images/bg.jpg') no-repeat;
+  background: #ffffff5b;
 }
 
 .header-two {
